@@ -47,7 +47,7 @@ The following instructions are for installing the `ssl` environment at NERSC, bu
     source activate ssl-pl
     python setup.py install
     ```
-11. Finally, to add the environment to the jupyter kernals, run the following in the terminal:
+11. Finally, to add the environment to the jupyter kernels, run the following in the terminal:
     ```
-    python -m ipykernal install --user --name ssl-pl --display_name ssl-pl
+    python -m ipykernel install --user --name ssl-pl --display_name ssl-pl
     ```
